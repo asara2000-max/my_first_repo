@@ -1,4 +1,28 @@
 touch my_first_file.txt --> crea un archivo de texto vacío
 mkdir my_first_folder --> crea una carpeta vacía
-git commit = guarda hasta ese punto
+
+git status --> muestra las ramas y commits
+git add "nombre archivo" --> trackea ese archivo
+git add . --> trackea todos los archivos del directorio
+
+git commit --> guarda hasta ese punto, es un punto de control; debe ir acompañado de un mensaje descriptivo que indique los cambios realizados
+git commit -m "creating my first repo in git" --> entre comillas va el mensaje descriptivo
+
+echo "this is my first line">>my_second_file --> escribe esa línea dentro del archivo de texto
+cat my_second_file.txt --> muestra el texto dentro del archivo
+
+git log --> muestra los commits realizados
+
+git checkout "commit-hash" --> muestra los cambios realizados en un commit
+
+git hub = nube donde se almacenan repositorios (como google drive)
+crear cuenta en git hub: correo asara2000@gmail.com, nombre de usuario asara2000-max
+en git hub, pincha en perfil, repositorios, new y creas un repositorio. puedes elegir si es público o privado. activa los readmes.
+para subir el repositorio local al repositorio en git hub que acabamos de crear:
+picha en code, en ssh. en el terminal ponemos "ssh-keygen -t ed25519 -C "asara2000@gmail.com"
+en settings, ssh and GPG keys, añadimos la llave. volvemos a ssh y copiamos el link terminado en .git
+para enlazar el repositorio local con el repositorio en la nube escribimos en el terminal: git remote add origin git@github.com:asara2000-max/my_first_repo.git
+para comprobar el enlazamiento ponemos en el terminal: git remote -v
+escribimos en el terminal: git pull origin main
+
 
