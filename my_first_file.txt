@@ -1,0 +1,4 @@
+touch my_first_file.txt --> crea un archivo de texto vacío
+mkdir my_first_folder --> crea una carpeta vacía
+git commit = guarda hasta ese punto
+
