@@ -24,5 +24,6 @@ en settings, ssh and GPG keys, añadimos la llave. volvemos a ssh y copiamos el 
 para enlazar el repositorio local con el repositorio en la nube escribimos en el terminal: git remote add origin git@github.com:asara2000-max/my_first_repo.git
 para comprobar el enlazamiento ponemos en el terminal: git remote -v
 escribimos en el terminal: git pull origin main
+git push -u origin master
 
 
